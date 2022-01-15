@@ -29,10 +29,10 @@ body {
     text-decoration: none;
     color: whitesmoke;
     background-color: rgb(108, 83, 117);
-    padding: 5px 20px;
+    padding: 10px 20px;
     border-radius: 20px;
-    font-weight: 600;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 .article img {
@@ -45,6 +45,10 @@ body {
 }
 
 /* middle section */
+.middle-section {
+    padding-bottom: 30px;
+}
+
 #second-headline {
     text-align: center;
     font-size: 34px;
@@ -91,12 +95,39 @@ body {
 
 #button {
     padding-top: 30px;
-
-
     text-align: right;
 }
 
-.middle-section .button a {
+#see-more {
     text-decoration: none;
-    color: rgb(235, 22, 40);
+    color: rgb(109, 27, 139);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* footer */
+footer {
+    background-color: rgb(35, 5, 46);
+    padding-top: 1px;
+    padding-bottom: 15px;
+    color: rgb(228, 227, 227);
+    text-align: center;
+
+}
+
+footer h3 {
+    font-size: 20px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    padding-left: 15px;
 }
